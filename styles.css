@@ -1,0 +1,68 @@
+body{
+	margin:0;
+    background-color: rgb(253, 252, 252);
+    background-image: url("iStock-1001713236-medical-plain.jpg");
+    background-size: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	background-color: rgb(0, 37, 61);
+	color: rgb(255, 255, 255);
+	height: 75px;
+}
+#topbar{
+	width:75%;
+	margin-left: auto ;
+    margin-right: auto ;
+}
+nav {
+	float: right;
+}
+nav li{
+	display: inline;
+	padding-right: 30px;
+}
+.logo {
+	float:left;
+	font-size:34px;
+	padding-left:20px;
+	padding-top:20px;
+}
+
+.box{
+	margin-top: 20px;
+	width:75%;
+	margin-left: auto ;
+    margin-right: auto ;
+    height: 400px;
+}
+
+.blog-post{
+	margin-top:20px;
+	float:left;
+}
+.blog-heading{
+	font-size: 33px;
+	margin-bottom:20px;
+}
+.sidebar{
+	float:right;
+}
+/*footer{	
+	color: white;	
+	margin-left: auto ;    
+	margin-right: auto ;	
+	font-size:16px;	
+	min-height: 50px;	
+	padding:20px;	
+	background-color: black;	
+}
+#footer{	
+	width:75%;
+	margin-left: auto ;    
+	margin-right: auto ;
+}
