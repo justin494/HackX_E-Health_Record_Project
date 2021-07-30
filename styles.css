@@ -1,5 +1,5 @@
-body{
-	margin:0;
+body {
+    margin: 0;
     background-color: rgb(253, 252, 252);
     background-image: url("iStock-1001713236-medical-plain.jpg");
     background-size: 1200px;
@@ -9,60 +9,89 @@ body{
 
 header {
     font-family: 'Times New Roman', Times, serif;
-	font-size: 20px;
-	background-color: rgb(0, 37, 61);
-	color: rgb(255, 255, 255);
-	height: 75px;
-}
-#topbar{
-	width:75%;
-	margin-left: auto ;
-    margin-right: auto ;
-}
-nav {
-	float: right;
-}
-nav li{
-	display: inline;
-	padding-right: 30px;
-}
-.logo {
-	float:left;
-	font-size:34px;
-	padding-left:20px;
-	padding-top:20px;
+    font-size: 20px;
+    background-color: rgb(0, 37, 61);
+    color: rgb(255, 255, 255);
+    height: 75px;
 }
 
-.box{
-	margin-top: 20px;
-	width:75%;
-	margin-left: auto ;
-    margin-right: auto ;
+#topbar {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline;
+    padding-right: 30px;
+}
+
+.logo {
+    float: left;
+    font-size: 36px;
+    /* padding-left:20px; */
+    padding-top: 5px;
+}
+
+.box {
+    margin-top: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
 }
 
-.blog-post{
-	margin-top:20px;
-	float:left;
+.blog-post {
+    margin-top: 24px;
+    float: left;
 }
-.blog-heading{
-	font-size: 33px;
-	margin-bottom:20px;
+
+.blog-heading {
+    font-size: 33px;
+    margin-bottom: 20px;
 }
-.sidebar{
-	float:right;
+
+.blog-body {
+    font-size: 24px;
 }
+
+.sidebar {
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* .header_left{
+	display: flex;
+	
+} */
+
+.logo>img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+
 /*footer{	
-	color: white;	
+	color: rgb(0, 37, 61);	
 	margin-left: auto ;    
 	margin-right: auto ;	
 	font-size:16px;	
-	min-height: 50px;	
-	padding:20px;	
-	background-color: black;	
+	min-height: 10px;	
+	padding:10px;	
+	background-color:rgb(0, 37, 61);	
 }
-#footer{	
-	width:75%;
+#footer{
+	width: 50%;
 	margin-left: auto ;    
 	margin-right: auto ;
 }
